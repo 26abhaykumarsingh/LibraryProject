@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library.css">
+    <script src="library.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Library</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headertext">LIBRARY</div>
+    </div>
+
+    <button id="newbook">+</button>
+
+    <form action="" id="newbookform" style="display: none;">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title">
+        </div>
+        <div>
+            <label for="author">Author</label>
+            <input type="text" id="author">
+        </div>
+        <div>
+            <label for="noofpages">Pages</label>
+            <input type="number" id="noofpages">
+        </div>
+        <div>
+            <label for="readstatus">Have you read this?</label>
+            <input type="checkbox" id="readstatus">
+        </div>
+        <button id="formsubmit" type="submit">Add Book</button>
+    </form>
+
+    <div class="container">
+    </div>
+</body>
+
+</html>
